@@ -1,0 +1,33 @@
+
+<form id="858091345">
+<property name="subject" value=""/>
+<property name="name" value="changeDoc-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="test_date" type="InputDate" id="786951456">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;date (test)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_doc/date"/>
+<property name="outputBinding" value="out_doc/date"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="2" name="test_document" type="Document" id="29233477">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;document (test)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_doc/document"/>
+<property name="outputBinding" value="out_doc/document"/>
+<property name="fieldClass" value="org.jbpm.formModeler.fieldTypes.document.Document"/>
+</field>
+<field position="0" name="test_name" type="InputText" id="1802189334">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (test)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_doc/name"/>
+<property name="outputBinding" value="out_doc/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="in_doc" name="#0000A0" type="className" outId="out_doc" value="org.jbpm.formModeler.fieldTypes.document.test.DocTest" id="test"/>
+</form>
