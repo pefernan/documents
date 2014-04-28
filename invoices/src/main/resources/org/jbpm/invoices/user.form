@@ -1,0 +1,25 @@
+
+<form id="2035776598">
+<property name="subject" value=""/>
+<property name="name" value="user.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="user_login" type="InputText" id="283079021">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;login (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="user/login"/>
+<property name="outputBinding" value="user/login"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="user_password" type="InputText" id="1940277090">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;password (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="user/password"/>
+<property name="outputBinding" value="user/password"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="user" name="#0000A0" type="dataModelerEntry" outId="user" value="org.jbpm.invoices.User" id="user"/>
+</form>
