@@ -1,0 +1,16 @@
+
+<form id="1891464281">
+<property name="subject" value=""/>
+<property name="name" value="docs.documents-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="document" type="Document" id="297471833">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;document (document)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="document"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="document" value="org.jbpm.document.Document" id="document"/>
+</form>
